@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>About Me</title>
+  <title>Akifa Hasnat | Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Bootstrap CSS -->
@@ -11,23 +11,15 @@
   <!-- Custom Style -->
   <style>
     :root {
-      --main-blue: #0077cc;  /* Primary color */
-      --soft-gray: #f9f9f9;  /* Background */
-      --dark-gray: #333333;  /* Text color */
+      --main-blue: #0077cc;
+      --soft-gray: #f9f9f9;
+      --dark-gray: #333333;
     }
 
     body {
-      font-family: Arial, sans-serif;
       background-color: var(--soft-gray);
+      font-family: Arial, sans-serif;
       color: var(--dark-gray);
-    }
-
-    h1, h2 {
-      color: var(--main-blue);
-    }
-
-    .section {
-      margin-bottom: 2rem;
     }
 
     .navbar-custom {
@@ -38,21 +30,32 @@
       color: white;
     }
 
+    .hero {
+      padding: 5rem 0;
+      text-align: center;
+      background: linear-gradient(135deg, #eac7d3, #f9f9f9);
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      color: var(--dark-gray);
+    }
+
+    .hero p {
+      font-size: 1.25rem;
+      margin-bottom: 2rem;
+    }
+
+    .hero .btn {
+      margin: 0.5rem;
+    }
+
     footer {
       background-color: var(--main-blue);
       color: white;
       text-align: center;
       padding: 1rem 0;
       margin-top: 3rem;
-    }
-
-    a.email-link {
-      color: var(--main-blue);
-      text-decoration: none;
-    }
-
-    a.email-link:hover {
-      text-decoration: underline;
     }
   </style>
 </head>
@@ -61,68 +64,34 @@
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-custom">
     <div class="container">
-      <a class="navbar-brand text-white" href="#">About Me</a>
+      <a class="navbar-brand text-white" href="#">Akifa Hasnat</a>
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+          <li class="nav-item"><a class="nav-link" href="business.html">Business Page</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- Main Content -->
-  <div class="container mt-5">
-
-    <div class="section">
-      <h1>About Me</h1>
-      <p>Hi! I'm a high school student currently advancing to junior-senior status as I prepare to graduate a year early. I’m passionate about both healthcare and technology, and I plan to pursue a career in nursing—specifically as a Pediatric Nurse Practitioner.</p>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>Welcome to My Portfolio</h1>
+      <p>Hi, I'm Akifa — a student passionate about healthcare, technology, and creative expression through makeup.</p>
+      <a href="about.html" class="btn btn-primary">About Me</a>
+      <a href="business.html" class="btn btn-outline-dark">My Business Page</a>
     </div>
-
-    <div class="section">
-      <h2>Career Goals</h2>
-      <ul>
-        <li>Excel in nursing with a specialization in pediatrics</li>
-        <li>Understand key medical concepts and patient care strategies</li>
-        <li>Learn to code and apply it to healthcare innovations</li>
-        <li>Use technology to improve patient care and hospital systems</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Current Experience</h2>
-      <p>I currently work as an Activity Assistant at a local pool facility, where I coordinate fun and engaging activities for young children. I love working with kids and helping them learn through play!</p>
-    </div>
-
-    <div class="section">
-      <h2>Programs</h2>
-      <p>I'm part of the <strong>Karim Kharbouch Coding Fellowship</strong>, where I’m learning coding skills and exploring tech-driven innovations that make a difference.</p>
-    </div>
-
-    <div class="section">
-      <h2>Future Aspirations</h2>
-      <ul>
-        <li>Combine healthcare and technology to solve real-world problems</li>
-        <li>Start a business centered around my passion for makeup and beauty</li>
-      </ul>
-    </div>
-
-    <div class="section" id="contact">
-      <h2>Contact Me</h2>
-      <p>Feel free to contact me for questions or concerns.</p>
-      <p>Email: <a class="email-link" href="mailto:akifahasnat52@gmail.com">akifahasnat52@gmail.com</a></p>
-    </div>
-
-  </div>
+  </section>
 
   <!-- Footer -->
   <footer>
     <p>© 2025 Akifa Hasnat. All rights reserved.</p>
   </footer>
 
-  <!-- Bootstrap JS (optional) -->
+  <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
 </body>
 </html>
+
